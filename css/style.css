@@ -67,6 +67,8 @@ p {
     background-image: url(../img/immagine_modificata.png);
     background-size: cover;
     background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: top center;
     height: 100%;
     width: 100%;
     border-radius: 5px;
@@ -138,7 +140,9 @@ p {
 
 .container_image1 {
     background-image: url(../img/img-1.jpg);
-    height: 175px;
+    object-fit: cover;
+    background-position: top center;
+    height: 250px;
     width: 100%;
     background-color: lightgrey;
     background-blend-mode: multiply;
@@ -155,9 +159,11 @@ p {
 
 .container_image2 {
     background-image: url(../img/Banner2_modificato.jpg);
+    object-fit: cover;
+    background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 175px;
+    height: 250px;
     width: 100%;
     background-color: lightgrey;
     background-blend-mode: multiply;
@@ -174,7 +180,10 @@ p {
 .container_image3 {
     background-image: url(../img/img-3.jpg);
     background-repeat: no-repeat;
-    height: 175px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: top center;
+    height: 250px;
     width: 100%;
     background-color: lightgrey;
     background-blend-mode: multiply;
