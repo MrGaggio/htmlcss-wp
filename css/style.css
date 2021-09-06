@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+
+.debug > .siteheader {
+    height: 80px;
+    background-color: darkgoldenrod;
+
+}
+
+.siteheader {
+    margin-bottom: 1rem;
+}
+
+.debug .jumbo {
+    height: 250px;
+    background-color: darkorchid;
+}
+
+.jumbo {
+    margin-bottom: 1rem;
+}
+
+.debug .intro {
+    height: 80px ;
+    background-color: darkseagreen;
+}
+
+.intro {   
+    margin-bottom: 1rem;
+
+}
+
+.debug .sitefooter {
+    height: 80px;
+    background-color: grey;
+}
+
+.sitefooter {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+/* Debug class */
+
+.debug .colonna1 {
+    height: 200px;
+    background-color: limegreen;
+}
+
+.debug .colonna2 {
+    height: 200px;
+    background-color: orange;
+}
+
+.debug .colonna3 {
+    height: 200px;
+    background-color: teal;
+}
+
+.columscontainer {
+    
+    margin-bottom: 1rem;
+}
+
+.colonna1 {
+    float: left;
+    width: 28%;
+   
+}
+
+.colonna2 {
+    float: left;
+    width: 40%;
+    
+    margin: 0 2%;
+}
+
+.colonna3 {
+    float: left;
+    width: 28%;
+    
+}
