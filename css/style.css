@@ -138,7 +138,7 @@ p {
 
 .container_image1 {
     background-image: url(../img/img-1.jpg);
-    height: 200px;
+    height: 175px;
     width: 100%;
     background-color: lightgrey;
     background-blend-mode: multiply;
@@ -157,7 +157,7 @@ p {
     background-image: url(../img/Banner2_modificato.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 175px;
     width: 100%;
     background-color: lightgrey;
     background-blend-mode: multiply;
@@ -174,7 +174,7 @@ p {
 .container_image3 {
     background-image: url(../img/img-3.jpg);
     background-repeat: no-repeat;
-    height: 200px;
+    height: 175px;
     width: 100%;
     background-color: lightgrey;
     background-blend-mode: multiply;
