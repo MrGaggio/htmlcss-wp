@@ -17,6 +17,9 @@ body {
     font-family: font-family: 'Montserrat', sans-serif;;
 }
 
+p {
+    font-size: 1.3rem;
+}
 
 .debug > .siteheader {
     height: 80px;
@@ -73,10 +76,6 @@ body {
     font-size: 2rem;
 }
 
-.little1 {
-    font-size: 1.3rem;
-}
-
 .descrizione {
     display: inline-block;
 }
@@ -88,6 +87,7 @@ body {
 
 .intro {   
     margin-bottom: 1rem;
+    padding-top: 20px;
 
 }
 
