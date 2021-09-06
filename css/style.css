@@ -58,20 +58,20 @@ p {
 
 .principale {
     margin-bottom: 1rem;
-    height: 450px;
+    height: 550px;
     width: 100%;
     
 }
 
 .jumbo {
     background-image: url(../img/immagine_modificata.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     border-radius: 5px;
     color: white;
-    padding-top: 250px;
+    padding-top: 350px;
     padding-left: 50px;
     background-color: lightgrey;
     background-blend-mode: multiply;
@@ -155,7 +155,7 @@ p {
 
 .container_image2 {
     background-image: url(../img/Banner2_modificato.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 175px;
     width: 100%;
