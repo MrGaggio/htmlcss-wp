@@ -18,7 +18,8 @@ body {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    color: #AEAEAE;
 }
 
 .debug > .siteheader {
@@ -70,10 +71,13 @@ p {
     color: white;
     padding-top: 250px;
     padding-left: 50px;
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+
 }
 
-.big1 {
-    font-size: 2rem;
+.big1, .little1 {
+    color: white;
 }
 
 .descrizione {
@@ -120,26 +124,59 @@ p {
     background-color: teal;
 }
 
-.columscontainer {
-    
+.columscontainer {  
     margin-bottom: 1rem;
 }
 
 .colonna1 {
     float: left;
-    width: 28%;
-   
+    width:20%;
+    
 }
+
+.container_image1 {
+    background-image: url(../img/img-1.jpg);
+    height: 200px;
+    width: 100%;
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
 
 .colonna2 {
     float: left;
-    width: 40%;
-    
+    width: 56%;
+    height: 100%;
     margin: 0 2%;
+}
+
+.container_image2 {
+    background-image: url(../img/Banner2_modificato.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    border-radius: 10px;
 }
 
 .colonna3 {
     float: left;
-    width: 28%;
+    width:20%;
+    
     
 }
+
+.container_image3 {
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
+
