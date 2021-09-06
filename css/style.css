@@ -12,7 +12,7 @@
 
 
 body {
-    width: 70%;
+    width: 60%;
     margin: auto;
     font-family: font-family: 'Montserrat', sans-serif;;
 }
@@ -58,13 +58,15 @@ p {
 
 .principale {
     margin-bottom: 1rem;
-    height: 456px;
-    width: 1024px;
+    height: 450px;
+    width: 100%;
     
 }
 
 .jumbo {
     background-image: url(../img/immagine_modificata.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100%;
     width: 100%;
     border-radius: 5px;
@@ -177,6 +179,7 @@ p {
     background-color: lightgrey;
     background-blend-mode: multiply;
     border-radius: 10px;
+
 }
 
 
